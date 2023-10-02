@@ -1,0 +1,73 @@
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: #000;
+}
+
+body, h1, h2, h3, figure, input{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+    font-family: inherit;
+}
+
+.main-button{
+    display: inline-block;
+    background-color: #7E84F2;
+    box-shadow: 5px 5px 0 #999090;
+    padding: 18px 20px;
+    margin: 0;
+    transition: transform 0.10s linear;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.main-button:hover{
+    background-color: #A3BFFF;
+    color: #283059;
+    transform: scale(1.05);
+}
+
+.main-button.-full{
+    width: 100%;
+    border: none;
+    font-size: 30px;
+}
+
+.main-button.-full:hover{
+    transform: scale(1.01);
+}
+
+.container-obrigado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.wrapper-obgd{
+    font-family: 'Press Start 2P', sans-serif;
+    height: 200px;
+    width: 200px;
+}
+
+.wrapper-obgd h1{
+    color: #fff;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-obgd a{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
